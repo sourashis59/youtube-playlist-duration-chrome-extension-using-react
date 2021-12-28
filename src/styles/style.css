@@ -1,0 +1,45 @@
+/* :root {
+    --htmlWidth: 400px;
+}
+
+html {
+    width: var(--htmlWidth);
+    height: auto;
+
+    background: linear-gradient(#ffcece, #b8bdf5);
+
+    font-size: 1.2rem;
+    font-family: "DM Sans", sans-serif;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#loadingImage {
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.alignItemsCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redText {
+    color: red;
+} */

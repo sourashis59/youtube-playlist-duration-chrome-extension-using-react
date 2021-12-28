@@ -1,0 +1,33 @@
+.loader {
+    border: 3px solid #4cf735; /* Light grey */
+    border-top: 3px solid #043b5f;
+    border-right: 3px solid #043b5f;
+
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 700ms linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.fetchingSpinner {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    padding-bottom: 1rem;
+
+    font-size: 1.1rem;
+}
+
+#fetchingText {
+    padding-right: 0.5rem;
+}
